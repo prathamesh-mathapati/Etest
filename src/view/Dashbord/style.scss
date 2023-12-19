@@ -1,0 +1,149 @@
+.dashboard-main{
+    display: grid;
+    grid-template-columns: 76rem 1fr;
+    padding: 10px 10px;
+    gap: 20px;
+    
+    .dashboard-line-chart{
+        border-radius: 20px;
+        background-color: #FFF;
+        h3{
+            text-align: left;
+            padding-left: 30px;
+        }
+    }
+
+    .dashboard-pie-chart{
+        background-color: #FFF;
+        border-radius: 20px;
+
+        h3{
+            color: #8834FF;
+        }
+    }
+
+    .sells-info-cart{
+        display: flex;
+        padding: 0px 20px;
+        gap: 60px;
+        .commen-card{
+            width: 150px;
+            border-radius: 10px;
+            text-align: left;
+            padding-left: 20px;
+
+
+            p{
+                font-size: 1.3rem;
+            }
+            span{
+                border-radius: 10px;
+                width: 60px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+                color: #ccc;
+                font-weight: 300;
+                svg{
+                    font-size: 30px;
+
+                }
+            }
+            h3{
+                font-size: 2rem;
+                font-weight: 500;
+            }
+        }
+    }
+    .revenue-card {
+        background-color: #3575ff3b;
+        
+        span{
+            display: block;
+            background-color: #3575FF;
+
+            svg{
+                fill: #FFF;
+            }
+        }
+    }
+    .sale-return-card{
+        background-color: #f366432e;
+
+        span{
+            display: block;
+            background-color: #F36643;
+
+            svg{
+                fill: #FFF;
+            }
+        }
+
+
+    }
+    .purchase-return{
+        background-color: #4524f82b;
+
+        span{
+            display: block;
+            background-color: #4524F8;
+
+            svg{
+                fill: #FFF;
+            }
+        }
+    }
+    .profit-card{
+        background-color: #24d6a52e;
+
+        span{
+            display: block;
+            background-color: #24D6A5;
+
+            svg{
+                fill: #FFF;
+            }
+        }
+
+    }
+    .total-card{
+        background-color:#ffb82152;
+
+        span{
+            display: block;
+            background-color:#ffb821;
+            svg{
+                color: #FFF ;
+            }
+        }
+
+    }
+    .new-show-sles-product{
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #FFF;
+        h3{
+            color: #8834FF;
+        }
+
+    }
+.sells-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button{
+        height: 30px;
+        border-radius: 5px;
+        background-color: white;
+        border: 1px solid;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #8834FF;
+        color: white;
+    }
+}
+
+}
